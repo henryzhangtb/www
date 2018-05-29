@@ -1,0 +1,17 @@
+<script>
+//定义一个json数组来保存多个人的信息
+var per=[
+{name:'zhang',age:30},
+{name:'li',age:23},
+{name:'wang',age:43}
+];
+
+//遍历json数组
+for(var i=0;i<per.length;i++){
+	var str=per[i].name+";"+per[i].age+'<br>';
+    document.getElementById('content').innerHTML+=str;
+}
+</script>
+<div id='content'>
+
+</div>
